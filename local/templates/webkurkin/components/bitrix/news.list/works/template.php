@@ -31,7 +31,7 @@ $this->setFrameMode(true);
             </div>
             <div class="text_slider">
                 <p><?=$arItem['~NAME'];?></p>
-                <a href="works/index.php?ID=<?=$arItem['CODE']?>" class="slider_btn">Смотреть </a>
+                <a href="<?=$arItem['DETAIL_PAGE_URL']?>" class="slider_btn">Смотреть </a>
             </div>
 
             <?=$arItem['~PREVIEW_TEXT'];?>

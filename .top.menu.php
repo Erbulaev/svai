@@ -3,21 +3,21 @@
 $aMenuLinks = Array(
 	Array(
 		"Услуги",
-		"services/",
+		"/#services",
 		Array(), 
 		Array(), 
 		"" 
 	),
     Array(
         "Наши работы",
-        "works/",
+        "/#work",
         Array(),
         Array(),
         ""
     ),
     Array(
         "Преимущества",
-        "works/",
+        "/#advantages",
         Array(),
         Array(),
         ""
@@ -31,7 +31,7 @@ $aMenuLinks = Array(
     ),
     Array(
         "Контакты",
-        "contacts/",
+        "/#contacts",
         Array(),
         Array(),
         ""

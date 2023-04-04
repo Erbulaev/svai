@@ -26,7 +26,8 @@ $this->setFrameMode(true);
         ?>
         <div class="service">
             <p><?=$arItem['~NAME'];?></p>
-            <?=$arItem['~PREVIEW_TEXT'];?>
+            <a href="<?=$arItem['DETAIL_PAGE_URL']?>">Подробнее</a>
+<!--            --><?php //=$arItem['~PREVIEW_TEXT'];?>
         </div>
     <?endforeach;?>
 </div>

@@ -1,0 +1,20 @@
+<?
+$PERM["works_old"]["5"]="X";
+$PERM["/"]["*"]="X";
+$PERM["index.php"]["G5"]="X";
+$PERM["index.php"]["*"]="X";
+$PERM["услуги.csv"]["5"]="X";
+$PERM["пример работ.csv"]["5"]="X";
+$PERM["urlrewrite.php"]["5"]="X";
+$PERM["favicon.ico"]["5"]="X";
+$PERM["404.php"]["5"]="X";
+$PERM[".top.menu.php"]["5"]="X";
+$PERM[".htaccess"]["5"]="X";
+$PERM[".bottom.menu.php"]["5"]="X";
+$PERM[".access.php"]["5"]="X";
+$PERM["upload"]["5"]="X";
+$PERM["services"]["5"]="X";
+$PERM["local"]["5"]="X";
+$PERM["img"]["5"]="X";
+$PERM["bitrix"]["5"]="X";
+?>
