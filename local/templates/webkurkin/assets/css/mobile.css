@@ -14,9 +14,13 @@
     .intro_text p {
         font-size: 32px;
     }
+    .service:nth-child(3) {
+        margin-left: 115px;
+        margin-bottom: -45px;
+    }
 
     .intro_text p:first-child {
-        font-size: 42px;
+        font-size: 22px;
     }
 
     .service {
@@ -25,15 +29,15 @@
         height: 250px;
         gap: 10px;
     }
+    .service:nth-child(4){
+        margin: 0;
+    }
 
     .service p {
         width: 200px;
         font-size: 18px;
     }
 
-    .service:last-child {
-        margin-bottom: -50px;
-    }
 
     .intro_services {
         max-width: calc(240px * 2 + 50px);
@@ -89,27 +93,31 @@
     }
 
     .intro_text p:first-child {
+        font-size: 18px;
+    }
+    .intro_text p:nth-child(2) {
         font-size: 42px;
+
     }
 
     .service {
-        max-width: calc(100% / 2 - 5px);
-        width: 250px;
-        height: 250px;
+        max-width: calc(100% / 2 - 10px);
+        width: 200px;
+        height: 200px;
         gap: 10px;
     }
-
+    .service:nth-child(3) {
+        margin-left: 92px;
+        margin-bottom: -45px;
+    }
     .service p {
-        width: 200px;
-        font-size: 18px;
+        width: 160px;
+        font-size: 14px;
     }
 
-    .service:last-child {
-        margin-bottom: -50px;
-    }
 
     .intro_services {
-        max-width: calc(240px * 2 + 50px);
+        max-width: calc(170px * 2 + 50px);
     }
 
     .groups {
@@ -199,7 +207,7 @@
     }
 
     .intro_text p:first-child {
-        font-size: 42px;
+        font-size: 16px;
     }
 
     .service {
@@ -213,9 +221,9 @@
         width: 160px;
         font-size: 16px;
     }
-
-    .service:last-child {
-        margin-bottom: -40px;
+    .service:nth-child(3) {
+        margin-left: 95px;
+        margin-bottom: -45px;
     }
 
     .intro_services {

@@ -38,7 +38,7 @@ $APPLICATION->SetTitle("Новый раздел");
 		"META_KEYWORDS" => "-",
 		"PAGER_BASE_LINK_ENABLE" => "N",
 		"PAGER_SHOW_ALL" => "N",
-		"PAGER_TEMPLATE" => "blog",
+		"PAGER_TEMPLATE" => "service",
 		"PAGER_TITLE" => "Страница",
 		"PROPERTY_CODE" => array("","NAME",""),
 		"SET_BROWSER_TITLE" => "Y",
@@ -53,7 +53,9 @@ $APPLICATION->SetTitle("Новый раздел");
 		"USE_PERMISSIONS" => "N",
 		"USE_SHARE" => "N"
 	)
-);?> <?$APPLICATION->IncludeComponent(
+);?>
+<? $arFilter['PROPERTY_SERVICE_ID'] = $_REQUEST["ELEMENT_ID"] ?>
+<?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"works_service",
 	Array(
@@ -77,20 +79,20 @@ $APPLICATION->SetTitle("Новый раздел");
 		"DISPLAY_PREVIEW_TEXT" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
 		"FIELD_CODE" => array("PREVIEW_PICTURE",""),
-		"FILTER_NAME" => "",
+		"FILTER_NAME" => "arFilter",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
 		"IBLOCK_ID" => "4",
 		"IBLOCK_TYPE" => "-",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"MESSAGE_404" => "",
-		"NEWS_COUNT" => "25",
+		"NEWS_COUNT" => "6",
 		"PAGER_BASE_LINK_ENABLE" => "N",
 		"PAGER_DESC_NUMBERING" => "N",
 		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
 		"PAGER_SHOW_ALL" => "N",
 		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_TEMPLATE" => "blog",
+		"PAGER_TEMPLATE" => "service",
 		"PAGER_TITLE" => "Новости",
 		"PARENT_SECTION" => "",
 		"PARENT_SECTION_CODE" => "",
